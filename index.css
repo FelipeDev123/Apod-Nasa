@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0; 
+}
+
+header{
+    font-family: monospace;
+    background-color: rgb(127, 127, 153);
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+}
+
+body {
+    text-align: center;
+    background-image: url(https://img.ibxk.com.br/2020/10/29/29120827635265.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+button {
+    margin: 1vh;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    margin:3vh;
+    font-size: 5vh;
+}
+
+input{
+    width: 25vh;
+    height: 3vh;
+    border-radius: 1vh;
+}
+
+button{
+    background-color: rgb(127, 127, 153);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    font-family: monospace;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 2vh;
+    font-size: 3vh;
+}
+
+button:hover{
+    size: 25px;
+
+}
+
+#imagem{
+    width: 50vh;
+    height: 40vh;
+}
+#explicacao{
+    font-size: 3vh;
+    border: solid;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apod Nasa</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<script src="jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="index.js"></script>
+
+<body>
+    <header>
+        <h1>Descubra imagens da Apod da NASA registradas desde junho de 1995!</h1>
+    </header>
+    <div>
+    <p>Digite uma data</p>
+    <input type="date" name="data" id="data" placeholder="digite aqui uma data" min="1995/06/01">
+</div>
+    <button onclick="inicio()">Pesquisar</button>
+    <h2 id="tituloRequisicao"> </h2>
+    <img src="" id="imagem">
+    <iframe src=""  id="video" class="esconde"></iframe>
+            <p id="explicacao"> </p>
+</body>
+</html>
