@@ -46,8 +46,8 @@ button{
 }
 
 button:hover{
-    size: 25px;
-
+    font-size: 25px;
+    background-color: rgb(127, 127, 153);
 }
 
 #imagem{
